@@ -1,7 +1,6 @@
 <?php
 
 declare(strict_types=1);
-
 /**
  * This file is part of Hyperf.
  *
@@ -10,11 +9,10 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf/hyperf/blob/master/LICENSE
  */
-
 use HConn\Config;
+use HConn\Packet;
 use HConn\Server\SwooleServer;
 use function Swoole\Coroutine\run;
-use HConn\Packet;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
